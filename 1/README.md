@@ -1,0 +1,20 @@
+## 1 scripts
+All scripts from this topic is about .log files analysis
+
+### LOG STRUCTURE 
+ * $1 - IP adress
+ * $2 - user indentifier ("-" - empty field)
+ * $3 - user name ("-" - empty field)
+ * $4-5 - time label ([day/month/year:hour:minute:second time_zone])
+ * $6 - HTTP query: Method
+ * $7 - HTTP query: URI
+ * $8 - HTTP query: protocol version
+ * $9 - status code
+ * $10 - response size
+### COMBINE FORMAT (+ two fields)
+ * $11 - referrer
+ * $12 - User-Agent
+### NGINX EXTENDED FORMAT
+ * $13 - Forwarded IP
+ * $14 - request time
+ * $15 - application name
